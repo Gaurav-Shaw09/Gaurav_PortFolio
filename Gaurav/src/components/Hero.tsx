@@ -101,7 +101,7 @@ const Hero: React.FC = () => {
             {/* Social Links */}
             <div ref={socialRef} className="flex space-x-6">
               <a
-                href="https://github.com/K-Nishant-18"
+                href="https://github.com/Gaurav-Shaw09"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 border border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300 hover:border-zinc-900 dark:hover:border-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-all duration-300"
@@ -110,7 +110,7 @@ const Hero: React.FC = () => {
                 <Github size={18} />
               </a>
               <a
-                href="https://linkedin.com/in/k-nishant-18"
+                href="https://www.linkedin.com/in/gaurav-shaw-b25523322/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 border border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300 hover:border-zinc-900 dark:hover:border-zinc-100 hover:text-zinc-900 dark:hover:text-zinc-100 transition-all duration-300"

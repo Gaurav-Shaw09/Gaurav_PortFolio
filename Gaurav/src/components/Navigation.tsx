@@ -26,14 +26,15 @@ const Navigation: React.FC = () => {
     );
   }, []);
 
-  const downloadResume = () => {
-    const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'Kumar_Nishant_Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+ const downloadResume = () => {
+  const link = document.createElement('a');
+  link.href = '/Gaurav_Resume_(Aug).pdf';   // ✅ exact file name in public
+  link.download = 'Gaurav_Resume.pdf';      // ✅ name you want after download
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);

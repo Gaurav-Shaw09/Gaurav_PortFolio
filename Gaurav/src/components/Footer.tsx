@@ -40,17 +40,17 @@ const Footer: React.FC = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/K-Nishant-18',
+      href: 'https://github.com/Gaurav-Shaw09',
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/k-nishant-18',
+      href: 'https://www.linkedin.com/in/gaurav-shaw-b25523322/',
     },
     {
       icon: Mail,
       label: 'Email',
-      href: 'mailto:me.knishant@gmail.com',
+      href: 'mailto:gauravshaw64@gmail.com',
     },
   ];
 
