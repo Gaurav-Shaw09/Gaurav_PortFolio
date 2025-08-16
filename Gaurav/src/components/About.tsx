@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Code, Coffee, Camera, Music } from 'lucide-react';
+import gaurav_photo from "../assets/gaurav_photo.jpeg";  // relative path
 
 
 const About: React.FC = () => {
@@ -135,7 +136,7 @@ const About: React.FC = () => {
             <div ref={imageRef} className="space-y-8">
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop&crop=face"
+                  src={gaurav_photo}
                   alt="Gaurav Shaw"
                   className="w-full h-[600px] object-cover filter grayscale hover:grayscale-0 transition-all duration-500"
                 />
