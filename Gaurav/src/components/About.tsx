@@ -2,8 +2,8 @@ import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Code, Coffee, Camera, Music } from 'lucide-react';
-import gaurav_photo from "../assets/gaurav_photo.jpeg";  // relative path
-
+import insta_gaurav from "../assets/insta_gaurav.jpeg";  // relative path
+import gaurav_photo from "../assets/gaurav_photo.jpeg"; // relative path
 
 const About: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -135,9 +135,7 @@ const About: React.FC = () => {
           <div className="lg:col-span-5 space-y-12">
             <div ref={imageRef} className="space-y-8">
               <div className="relative">
-                <img
-                  src={gaurav_photo}
-                  alt="Gaurav Shaw"
+              <img src={insta_gaurav} alt="Gaurav Instagram"
                   className="w-full h-[600px] object-cover filter grayscale hover:grayscale-0 transition-all duration-500"
                 />
                 <div className="absolute inset-0 border border-zinc-200 dark:border-zinc-800 pointer-events-none"></div>
