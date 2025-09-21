@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import ThemeProvider from './components/ThemeProvider';
 import CustomCursor from './components/CustomCursor';
 import Loader from './components/Loader';
+import BackgroundAudio from './components/BackgroundAudio';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -70,6 +71,7 @@ function App() {
         <CustomCursor />
         <Navigation />
         <Home />
+        <BackgroundAudio />
       </div>
     </ThemeProvider>
   );
