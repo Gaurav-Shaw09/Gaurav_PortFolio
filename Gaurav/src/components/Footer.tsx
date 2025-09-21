@@ -55,8 +55,7 @@ const Footer: React.FC = () => {
   ];
 
   const quickStats = [
-    { label: 'Projects', value: '15+' },
-    { label: 'Experience', value: '2+ Years' },
+    { label: 'Projects', value: '5+' },
     { label: 'Satisfaction', value: '100%' },
   ];
 

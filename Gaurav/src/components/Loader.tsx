@@ -14,7 +14,7 @@ const Loader: React.FC = () => {
       { width: '0%' },
       {
         width: '100%',
-        duration: 2,
+        duration: 1,
         ease: 'power2.out'
       }
     );
