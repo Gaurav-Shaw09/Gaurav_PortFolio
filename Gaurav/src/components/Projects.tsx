@@ -16,8 +16,8 @@ const Projects: React.FC = () => {
       description: 'A comprehensive student management platform featuring real-time collaboration, course management, and secure authentication systems.',
       tech: ['Java', 'Spring Boot', 'React.js', 'MySQL', 'JWT'],
       image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop',
-      github: 'https://github.com/K-Nishant-18',
-      live: '#',
+      github: 'https://github.com/Gaurav-Shaw09/Collegia',
+      live: 'https://collegia.vercel.app',
       status: 'Live'
     },
     {
@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
       description: 'Digital platform for preserving cultural heritage with interactive community features and multimedia galleries.',
       tech: ['Spring Boot', 'React.js', 'MongoDB', 'AWS', 'Docker'],
       image: 'https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&h=600&fit=crop',
-      github: 'https://github.com/K-Nishant-18',
+      github: 'https://github.com/Gaurav-Shaw09/Roots-Routes',
       live: '#',
       status: 'Development'
     },
@@ -40,8 +40,8 @@ const Projects: React.FC = () => {
       description: 'Advanced learning platform with GitHub integration, skill assessments, and automated certificate generation.',
       tech: ['Spring Boot', 'React.js', 'PostgreSQL', 'Docker', 'GitHub API'],
       image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop',
-      github: 'https://github.com/K-Nishant-18',
-      live: '#',
+      github: 'https://github.com/Gaurav-Shaw09/PenFolio',
+      live: 'https://penfolio-blzjzgs2a-gaurav-shaws-projects.vercel.app',
       status: 'Completed'
     },
   ];
