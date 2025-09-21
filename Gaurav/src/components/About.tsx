@@ -13,8 +13,8 @@ const About: React.FC = () => {
   const statsRef = useRef<HTMLDivElement>(null);
 
   const stats = [
-    { number: '2+', label: 'Years Experience', description: 'Building digital solutions' },
-    { number: '15+', label: 'Projects Completed', description: 'Across various domains' },
+    
+    { number: '5+', label: 'Projects Completed', description: 'Across various domains' },
     { number: '100%', label: 'Client Satisfaction', description: 'Quality-focused delivery' },
   ];
 

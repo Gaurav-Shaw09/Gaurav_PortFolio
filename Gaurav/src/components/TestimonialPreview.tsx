@@ -13,7 +13,7 @@ const TestimonialPreview: React.FC = () => {
     {
       name: 'Kumar Nishant',
       role: 'Product Manager',
-      company: 'Tech Startup',
+      company: 'Collegia',
       testimonial: 'Gaurav delivered exceptional work with outstanding attention to detail and technical expertise. His ability to understand complex requirements and translate them into elegant solutions is remarkable.',
       rating: 5,
       project: 'Collegia',
@@ -21,7 +21,7 @@ const TestimonialPreview: React.FC = () => {
     {
       name: 'Aditya Suryavanshi',
       role: 'Senior Developer',
-      company: 'Software Solutions',
+      company: 'Roots-Routes',
       testimonial: 'Working with Gaurav was seamless. His problem-solving skills, code quality, and collaborative approach made our project a huge success. Highly recommend his expertise.',
       rating: 5,
       project: 'E-commerce Platform',
@@ -29,9 +29,8 @@ const TestimonialPreview: React.FC = () => {
   ];
 
   const stats = [
-    { number: '15+', label: 'Projects Completed' },
+    { number: '5+', label: 'Projects Completed' },
     { number: '100%', label: 'Client Satisfaction' },
-    { number: '2+', label: 'Years Experience' },
   ];
 
   useEffect(() => {
