@@ -76,7 +76,7 @@ const About: React.FC = () => {
             </span>
           </div>
           <h2 className="text-4xl md:text-6xl font-light text-zinc-900 dark:text-zinc-100">
-            Digital Craftsman
+            Full-Stack Developer & Tech Enthusiast
           </h2>
         </div>
 

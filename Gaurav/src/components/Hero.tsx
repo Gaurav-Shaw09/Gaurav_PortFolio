@@ -85,7 +85,7 @@ const Hero: React.FC = () => {
             {/* Title */}
             <div ref={titleRef}>
               <h2 className="text-xl md:text-2xl font-mono tracking-wide text-zinc-600 dark:text-zinc-400">
-                Full-Stack Developer & Digital Architect
+                Full-Stack Developer
               </h2>
             </div>
 
