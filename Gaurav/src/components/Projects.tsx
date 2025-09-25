@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
       title: 'PenFolio',
       category: 'Blogging Website',
       year: '2023',
-      description: 'Advanced learning platform with GitHub integration, skill assessments, and automated certificate generation.',
+      description: 'A blogging platform to create, share, and engage with posts through likes, comments, and real-time chat.',
       tech: ['Spring Boot', 'React.js', 'PostgreSQL', 'Docker', 'GitHub API'],
       image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop',
       github: 'https://github.com/Gaurav-Shaw09/PenFolio',
