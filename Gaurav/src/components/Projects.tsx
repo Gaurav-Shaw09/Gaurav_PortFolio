@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
       category: 'Heritage Platform',
       year: '2024',
       description: 'Digital platform for preserving cultural heritage with interactive community features and multimedia galleries.',
-      tech: ['Spring Boot', 'React.js', 'MongoDB', 'AWS', 'Docker'],
+      tech: ['Spring Boot', 'React.js', 'MongoDB'],
       image: 'https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&h=600&fit=crop',
       github: 'https://github.com/Gaurav-Shaw09/Roots-Routes',
       live: '#',
